@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        profile    = "terraform_ci_test"
+        profile    = "defaults"
         bucket = "bucket-backend-s3"
         region = "sa-east-1"
         encrypt = "true"
